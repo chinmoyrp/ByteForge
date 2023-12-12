@@ -109,6 +109,16 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
+          <string>store_clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
           <string>inst</string>
         </entry>
         <entry>
@@ -117,16 +127,6 @@
         </entry>
       </elementAttributes>
       <pos x="560" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>store_clk</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1080" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>

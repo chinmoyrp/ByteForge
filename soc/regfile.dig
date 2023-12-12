@@ -8,24 +8,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>B</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>dec</intFormat>
-        </entry>
-      </elementAttributes>
-      <pos x="1180" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>R0</string>
         </entry>
         <entry>
@@ -74,6 +56,24 @@
         </entry>
       </elementAttributes>
       <pos x="1020" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>R3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Demultiplexer</elementName>
@@ -166,7 +166,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>R3</string>
+          <string>B</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -177,7 +177,7 @@
           <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="760"/>
+      <pos x="1180" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
