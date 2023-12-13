@@ -8,6 +8,14 @@
         <roms/>
       </romList>
     </entry>
+    <entry>
+      <string>preloadProgram</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>preloadProgramFile</string>
+      <file>/home/chinmoy/dev/ByteForge/soc/test.hex</file>
+    </entry>
   </attributes>
   <visualElements>
     <visualElement>
@@ -118,7 +126,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>104,d,d7,13,cf,1e0</data>
+          <data>120,61,bd,91,7d,10e</data>
         </entry>
       </elementAttributes>
       <pos x="580" y="620"/>
