@@ -11,16 +11,6 @@
   </attributes>
   <visualElements>
     <visualElement>
-      <elementName>decoder.dig</elementName>
-      <elementAttributes/>
-      <pos x="960" y="640"/>
-    </visualElement>
-    <visualElement>
-      <elementName>execute.dig</elementName>
-      <elementAttributes/>
-      <pos x="1280" y="740"/>
-    </visualElement>
-    <visualElement>
       <elementName>Button</elementName>
       <elementAttributes>
         <entry>
@@ -587,6 +577,16 @@
         </entry>
       </elementAttributes>
       <pos x="1420" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>exec16.dig</elementName>
+      <elementAttributes/>
+      <pos x="1280" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>decoder16.dig</elementName>
+      <elementAttributes/>
+      <pos x="960" y="640"/>
     </visualElement>
   </visualElements>
   <wires>

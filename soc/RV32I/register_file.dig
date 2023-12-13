@@ -3,6 +3,10 @@
   <version>2</version>
   <attributes>
     <entry>
+      <string>Description</string>
+      <string>Register file with 32 32-bit registers</string>
+    </entry>
+    <entry>
       <string>Label</string>
       <string>Register</string>
     </entry>
@@ -11,10 +15,6 @@
       <romList>
         <roms/>
       </romList>
-    </entry>
-    <entry>
-      <string>Description</string>
-      <string>Register file with 32 32-bit registers</string>
     </entry>
     <entry>
       <string>Width</string>
@@ -426,7 +426,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>D_out1</string>
+          <string>D_rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -448,7 +448,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>D_out2</string>
+          <string>D_rs2</string>
         </entry>
         <entry>
           <string>Bits</string>
