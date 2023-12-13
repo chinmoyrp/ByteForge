@@ -235,16 +235,6 @@
           <string>Value</string>
           <long>0</long>
         </entry>
-      </elementAttributes>
-      <pos x="640" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
         <entry>
           <string>Bits</string>
           <int>2</int>
@@ -289,6 +279,20 @@
         </entry>
       </elementAttributes>
       <pos x="940" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>move</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -379,12 +383,12 @@
       <p2 x="1080" y="240"/>
     </wire>
     <wire>
-      <p1 x="640" y="340"/>
-      <p2 x="660" y="340"/>
-    </wire>
-    <wire>
       <p1 x="900" y="340"/>
       <p2 x="940" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="340"/>
+      <p2 x="660" y="340"/>
     </wire>
     <wire>
       <p1 x="340" y="180"/>
