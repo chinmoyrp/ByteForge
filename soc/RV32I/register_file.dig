@@ -484,10 +484,28 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>C</string>
+          <string>clock</string>
         </entry>
       </elementAttributes>
       <pos x="1100" y="-580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register IO</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>		clock	rd	D_in 		rs1	D_rs1		rs2	D_rs2
+		C	0	0x77 		0	0		0	0
+repeat(31)	C     	(n+1) 	(0x7&lt;&lt;n) 	(n+1)	(0x7&lt;&lt;n) 	(n+1)	(0x7&lt;&lt;n)</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="-1540" y="1380"/>
     </visualElement>
   </visualElements>
   <wires>
