@@ -233,14 +233,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>rs2</string>
+          <string>rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="400" y="720"/>
+      <pos x="660" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -265,42 +265,42 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>D_rs2</string>
+          <string>D_rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="480" y="340"/>
+      <pos x="740" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Description</string>
-          <string>32-bit input to be stored at rd</string>
-        </entry>
-        <entry>
           <string>Label</string>
-          <string>D_in</string>
+          <string>rs2</string>
         </entry>
         <entry>
           <string>Bits</string>
-          <int>32</int>
+          <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="-1420" y="720"/>
+      <pos x="400" y="720"/>
     </visualElement>
     <visualElement>
-      <elementName>Clock</elementName>
+      <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>clock</string>
+          <string>rd</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="-960" y="780"/>
+      <pos x="-1520" y="-60"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -1092,15 +1092,19 @@ repeat(31)	C     	(n+1) 	(0x7&lt;&lt;n) 	(n+1)	(0x7&lt;&lt;n) 	(n+1)	(0x7&lt;&lt
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
+          <string>Description</string>
+          <string>32-bit input to be stored at rd</string>
+        </entry>
+        <entry>
           <string>Label</string>
-          <string>rs1</string>
+          <string>D_in</string>
         </entry>
         <entry>
           <string>Bits</string>
-          <int>5</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="660" y="720"/>
+      <pos x="-1420" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -1125,14 +1129,14 @@ repeat(31)	C     	(n+1) 	(0x7&lt;&lt;n) 	(n+1)	(0x7&lt;&lt;n) 	(n+1)	(0x7&lt;&lt
         </entry>
         <entry>
           <string>Label</string>
-          <string>D_rs1</string>
+          <string>D_rs2</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="740" y="340"/>
+      <pos x="480" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3399,18 +3403,14 @@ repeat(31)	C     	(n+1) 	(0x7&lt;&lt;n) 	(n+1)	(0x7&lt;&lt;n) 	(n+1)	(0x7&lt;&lt
       <pos x="-1100" y="340"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
+      <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>rd</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>5</int>
+          <string>clock</string>
         </entry>
       </elementAttributes>
-      <pos x="-1520" y="-60"/>
+      <pos x="-960" y="780"/>
     </visualElement>
   </visualElements>
   <wires>
